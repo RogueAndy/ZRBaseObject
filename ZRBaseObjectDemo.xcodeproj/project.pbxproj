@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82E08D982297D30C00447980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08D972297D30C00447980 /* AppDelegate.m */; };
+		82E08D9B2297D30C00447980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08D9A2297D30C00447980 /* ViewController.m */; };
+		82E08D9E2297D30C00447980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E08D9C2297D30C00447980 /* Main.storyboard */; };
+		82E08DA02297D30D00447980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E08D9F2297D30D00447980 /* Assets.xcassets */; };
+		82E08DA32297D30D00447980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E08DA12297D30D00447980 /* LaunchScreen.storyboard */; };
+		82E08DA62297D30D00447980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DA52297D30D00447980 /* main.m */; };
+		82E08DC62297D3B200447980 /* NSDictionary+ZRDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DAF2297D3B200447980 /* NSDictionary+ZRDictionary.m */; };
+		82E08DC72297D3B200447980 /* UITextView+ZRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DB02297D3B200447980 /* UITextView+ZRCategory.m */; };
+		82E08DC82297D3B200447980 /* UIView+ZRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DB62297D3B200447980 /* UIView+ZRView.m */; };
+		82E08DC92297D3B200447980 /* UIAlertController+ZRAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DB72297D3B200447980 /* UIAlertController+ZRAlert.m */; };
+		82E08DCA2297D3B200447980 /* NSString+ZRString.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DB82297D3B200447980 /* NSString+ZRString.m */; };
+		82E08DCB2297D3B200447980 /* UITableViewCell+ZRCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DB92297D3B200447980 /* UITableViewCell+ZRCategoryCell.m */; };
+		82E08DCC2297D3B200447980 /* ZRTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DBF2297D3B200447980 /* ZRTimer.m */; };
+		82E08DCD2297D3B200447980 /* ZRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DC12297D3B200447980 /* ZRColor.m */; };
+		82E08DCE2297D3B200447980 /* ZRMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DC22297D3B200447980 /* ZRMacro.m */; };
+		82E08DCF2297D3B200447980 /* ZRProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DC32297D3B200447980 /* ZRProperty.m */; };
+		82E08DD02297D3B200447980 /* ZRInitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08DC42297D3B200447980 /* ZRInitView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82E08D932297D30C00447980 /* ZRBaseObjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRBaseObjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E08D962297D30C00447980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82E08D972297D30C00447980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82E08D992297D30C00447980 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82E08D9A2297D30C00447980 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82E08D9D2297D30C00447980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82E08D9F2297D30D00447980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E08DA22297D30D00447980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E08DA42297D30D00447980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E08DA52297D30D00447980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82E08DAE2297D3B200447980 /* UIView+ZRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZRView.h"; sourceTree = "<group>"; };
+		82E08DAF2297D3B200447980 /* NSDictionary+ZRDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZRDictionary.m"; sourceTree = "<group>"; };
+		82E08DB02297D3B200447980 /* UITextView+ZRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZRCategory.m"; sourceTree = "<group>"; };
+		82E08DB12297D3B200447980 /* UIAlertController+ZRAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+ZRAlert.h"; sourceTree = "<group>"; };
+		82E08DB22297D3B200447980 /* UITableViewCell+ZRCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ZRCategoryCell.h"; sourceTree = "<group>"; };
+		82E08DB32297D3B200447980 /* NSString+ZRString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZRString.h"; sourceTree = "<group>"; };
+		82E08DB42297D3B200447980 /* UITextView+ZRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZRCategory.h"; sourceTree = "<group>"; };
+		82E08DB52297D3B200447980 /* NSDictionary+ZRDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZRDictionary.h"; sourceTree = "<group>"; };
+		82E08DB62297D3B200447980 /* UIView+ZRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZRView.m"; sourceTree = "<group>"; };
+		82E08DB72297D3B200447980 /* UIAlertController+ZRAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+ZRAlert.m"; sourceTree = "<group>"; };
+		82E08DB82297D3B200447980 /* NSString+ZRString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZRString.m"; sourceTree = "<group>"; };
+		82E08DB92297D3B200447980 /* UITableViewCell+ZRCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ZRCategoryCell.m"; sourceTree = "<group>"; };
+		82E08DBA2297D3B200447980 /* ZRBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBaseObject.h; sourceTree = "<group>"; };
+		82E08DBC2297D3B200447980 /* ZRMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRMacro.h; sourceTree = "<group>"; };
+		82E08DBD2297D3B200447980 /* ZRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRColor.h; sourceTree = "<group>"; };
+		82E08DBE2297D3B200447980 /* ZRProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRProperty.h; sourceTree = "<group>"; };
+		82E08DBF2297D3B200447980 /* ZRTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTimer.m; sourceTree = "<group>"; };
+		82E08DC02297D3B200447980 /* ZRInitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRInitView.h; sourceTree = "<group>"; };
+		82E08DC12297D3B200447980 /* ZRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRColor.m; sourceTree = "<group>"; };
+		82E08DC22297D3B200447980 /* ZRMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRMacro.m; sourceTree = "<group>"; };
+		82E08DC32297D3B200447980 /* ZRProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRProperty.m; sourceTree = "<group>"; };
+		82E08DC42297D3B200447980 /* ZRInitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRInitView.m; sourceTree = "<group>"; };
+		82E08DC52297D3B200447980 /* ZRTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRTimer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E08D902297D30C00447980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82E08D8A2297D30C00447980 = {
+			isa = PBXGroup;
+			children = (
+				82E08D952297D30C00447980 /* ZRBaseObjectDemo */,
+				82E08D942297D30C00447980 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82E08D942297D30C00447980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E08D932297D30C00447980 /* ZRBaseObjectDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E08D952297D30C00447980 /* ZRBaseObjectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82E08DAC2297D3B200447980 /* ZRBaseObject */,
+				82E08D962297D30C00447980 /* AppDelegate.h */,
+				82E08D972297D30C00447980 /* AppDelegate.m */,
+				82E08D992297D30C00447980 /* ViewController.h */,
+				82E08D9A2297D30C00447980 /* ViewController.m */,
+				82E08D9C2297D30C00447980 /* Main.storyboard */,
+				82E08D9F2297D30D00447980 /* Assets.xcassets */,
+				82E08DA12297D30D00447980 /* LaunchScreen.storyboard */,
+				82E08DA42297D30D00447980 /* Info.plist */,
+				82E08DA52297D30D00447980 /* main.m */,
+			);
+			path = ZRBaseObjectDemo;
+			sourceTree = "<group>";
+		};
+		82E08DAC2297D3B200447980 /* ZRBaseObject */ = {
+			isa = PBXGroup;
+			children = (
+				82E08DBB2297D3B200447980 /* Tool */,
+				82E08DAD2297D3B200447980 /* Category */,
+				82E08DBA2297D3B200447980 /* ZRBaseObject.h */,
+			);
+			path = ZRBaseObject;
+			sourceTree = SOURCE_ROOT;
+		};
+		82E08DAD2297D3B200447980 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				82E08DB52297D3B200447980 /* NSDictionary+ZRDictionary.h */,
+				82E08DAF2297D3B200447980 /* NSDictionary+ZRDictionary.m */,
+				82E08DB32297D3B200447980 /* NSString+ZRString.h */,
+				82E08DB82297D3B200447980 /* NSString+ZRString.m */,
+				82E08DB12297D3B200447980 /* UIAlertController+ZRAlert.h */,
+				82E08DB72297D3B200447980 /* UIAlertController+ZRAlert.m */,
+				82E08DB22297D3B200447980 /* UITableViewCell+ZRCategoryCell.h */,
+				82E08DB92297D3B200447980 /* UITableViewCell+ZRCategoryCell.m */,
+				82E08DB42297D3B200447980 /* UITextView+ZRCategory.h */,
+				82E08DB02297D3B200447980 /* UITextView+ZRCategory.m */,
+				82E08DAE2297D3B200447980 /* UIView+ZRView.h */,
+				82E08DB62297D3B200447980 /* UIView+ZRView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		82E08DBB2297D3B200447980 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				82E08DBD2297D3B200447980 /* ZRColor.h */,
+				82E08DC12297D3B200447980 /* ZRColor.m */,
+				82E08DC02297D3B200447980 /* ZRInitView.h */,
+				82E08DC42297D3B200447980 /* ZRInitView.m */,
+				82E08DBC2297D3B200447980 /* ZRMacro.h */,
+				82E08DC22297D3B200447980 /* ZRMacro.m */,
+				82E08DBE2297D3B200447980 /* ZRProperty.h */,
+				82E08DC32297D3B200447980 /* ZRProperty.m */,
+				82E08DC52297D3B200447980 /* ZRTimer.h */,
+				82E08DBF2297D3B200447980 /* ZRTimer.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E08D922297D30C00447980 /* ZRBaseObjectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E08DA92297D30D00447980 /* Build configuration list for PBXNativeTarget "ZRBaseObjectDemo" */;
+			buildPhases = (
+				82E08D8F2297D30C00447980 /* Sources */,
+				82E08D902297D30C00447980 /* Frameworks */,
+				82E08D912297D30C00447980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRBaseObjectDemo;
+			productName = ZRBaseObjectDemo;
+			productReference = 82E08D932297D30C00447980 /* ZRBaseObjectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E08D8B2297D30C00447980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rogue;
+				TargetAttributes = {
+					82E08D922297D30C00447980 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 82E08D8E2297D30C00447980 /* Build configuration list for PBXProject "ZRBaseObjectDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E08D8A2297D30C00447980;
+			productRefGroup = 82E08D942297D30C00447980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E08D922297D30C00447980 /* ZRBaseObjectDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E08D912297D30C00447980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E08DA32297D30D00447980 /* LaunchScreen.storyboard in Resources */,
+				82E08DA02297D30D00447980 /* Assets.xcassets in Resources */,
+				82E08D9E2297D30C00447980 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E08D8F2297D30C00447980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E08D9B2297D30C00447980 /* ViewController.m in Sources */,
+				82E08DA62297D30D00447980 /* main.m in Sources */,
+				82E08DC62297D3B200447980 /* NSDictionary+ZRDictionary.m in Sources */,
+				82E08DC72297D3B200447980 /* UITextView+ZRCategory.m in Sources */,
+				82E08DCF2297D3B200447980 /* ZRProperty.m in Sources */,
+				82E08DCA2297D3B200447980 /* NSString+ZRString.m in Sources */,
+				82E08DCC2297D3B200447980 /* ZRTimer.m in Sources */,
+				82E08DCE2297D3B200447980 /* ZRMacro.m in Sources */,
+				82E08DCB2297D3B200447980 /* UITableViewCell+ZRCategoryCell.m in Sources */,
+				82E08D982297D30C00447980 /* AppDelegate.m in Sources */,
+				82E08DD02297D3B200447980 /* ZRInitView.m in Sources */,
+				82E08DCD2297D3B200447980 /* ZRColor.m in Sources */,
+				82E08DC92297D3B200447980 /* UIAlertController+ZRAlert.m in Sources */,
+				82E08DC82297D3B200447980 /* UIView+ZRView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82E08D9C2297D30C00447980 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E08D9D2297D30C00447980 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82E08DA12297D30D00447980 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E08DA22297D30D00447980 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E08DA72297D30D00447980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82E08DA82297D30D00447980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E08DAA2297D30D00447980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZRBaseObjectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zljr.rogue.ZRBaseObjectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82E08DAB2297D30D00447980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZRBaseObjectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zljr.rogue.ZRBaseObjectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E08D8E2297D30C00447980 /* Build configuration list for PBXProject "ZRBaseObjectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E08DA72297D30D00447980 /* Debug */,
+				82E08DA82297D30D00447980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E08DA92297D30D00447980 /* Build configuration list for PBXNativeTarget "ZRBaseObjectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E08DAA2297D30D00447980 /* Debug */,
+				82E08DAB2297D30D00447980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82E08D8B2297D30C00447980 /* Project object */;
+}
