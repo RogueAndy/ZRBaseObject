@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		825269C922C4ACC20060C462 /* ZRRemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 825269C822C4ACC20060C462 /* ZRRemoteNotification.m */; };
 		82E08D982297D30C00447980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08D972297D30C00447980 /* AppDelegate.m */; };
 		82E08D9B2297D30C00447980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E08D9A2297D30C00447980 /* ViewController.m */; };
 		82E08D9E2297D30C00447980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E08D9C2297D30C00447980 /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		825269C722C4ACC20060C462 /* ZRRemoteNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRRemoteNotification.h; sourceTree = "<group>"; };
+		825269C822C4ACC20060C462 /* ZRRemoteNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRRemoteNotification.m; sourceTree = "<group>"; };
 		82E08D932297D30C00447980 /* ZRBaseObjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRBaseObjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E08D962297D30C00447980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82E08D972297D30C00447980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				82E08DC32297D3B200447980 /* ZRProperty.m */,
 				82E08DC52297D3B200447980 /* ZRTimer.h */,
 				82E08DBF2297D3B200447980 /* ZRTimer.m */,
+				825269C722C4ACC20060C462 /* ZRRemoteNotification.h */,
+				825269C822C4ACC20060C462 /* ZRRemoteNotification.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				82E08DCC2297D3B200447980 /* ZRTimer.m in Sources */,
 				82E08DCE2297D3B200447980 /* ZRMacro.m in Sources */,
 				82E08DCB2297D3B200447980 /* UITableViewCell+ZRCategoryCell.m in Sources */,
+				825269C922C4ACC20060C462 /* ZRRemoteNotification.m in Sources */,
 				82E08D982297D30C00447980 /* AppDelegate.m in Sources */,
 				82E08DD02297D3B200447980 /* ZRInitView.m in Sources */,
 				82E08DCD2297D3B200447980 /* ZRColor.m in Sources */,
